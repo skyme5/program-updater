@@ -1,0 +1,47 @@
+{
+    "FFMPEG":
+    {
+        "host": "https://ffmpeg.zeranoe.com",
+        "path": "/builds/win64/static/",
+        "output": "A:\\Utilities"
+    },
+    "CWEBP":
+    {
+        "host": "https://storage.googleapis.com",
+        "path": "/downloads.webmproject.org/releases/webp/index.html",
+        "output": "A:\\Utilities"
+    },
+    "NGINX":
+    {
+        "host": "https://nginx.org",
+        "path": "/download/",
+        "output": "D:\\Server\\nginx",
+        "extract_exclude": "-xr!*.conf -xr!*.types -xr!*.html",
+        "command_before": "taskkill /f /im nginx.exe",
+        "command_after": "D:\\Server\\nginx\\nginx.exe"
+    },
+    "UMATRIX":
+    {
+        "host": "https://github.com",
+        "path": "/gorhill/uMatrix/releases",
+        "output": "D:\\Projects\\uBlockOrigin\\uMatrix"
+    },
+    "ReviewHeatmap":
+    {
+        "host": "https://github.com",
+        "path": "/glutanimate/review-heatmap/releases",
+        "output": "A:\\Anki\\Default\\addons21\\review_heatmap"
+    },
+    "SingleFile":
+    {
+        "host": "https://github.com",
+        "path": "/gildas-lormeau/SingleFile",
+        "output": "D:\\Projects\\SingleFile-master"
+    },
+    "RIPME":
+    {
+        "host": "https://github.com",
+        "path": "/ripmeapp/ripme/releases",
+        "output": "A:\\Utilities\\bin\\ripme.jar"
+    }
+}
